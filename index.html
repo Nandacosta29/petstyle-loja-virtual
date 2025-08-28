@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet&Style</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-4 bg-white shadow-md">
+    <h1 class="text-2xl font-bold text-pink-600">🐾 Pet&Style</h1>
+    <nav class="space-x-4">
+      <a href="#home" class="hover:text-pink-600">Home</a>
+      <a href="#produtos" class="hover:text-pink-600">Produtos</a>
+      <a href="#depoimentos" class="hover:text-pink-600">Depoimentos</a>
+      <a href="#contato" class="hover:text-pink-600">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="text-center py-16 bg-pink-100">
+    <h2 class="text-4xl font-bold mb-4">Estilo e conforto para o seu pet!</h2>
+    <p class="mb-6">Produtos exclusivos que combinam estilo e bem-estar.</p>
+    <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?w=600" 
+         alt="Cachorro estiloso" class="mx-auto rounded-lg shadow-lg">
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="py-16 px-8">
+    <h3 class="text-3xl font-bold text-center mb-8">🐕 Nossos Produtos</h3>
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+
+      <!-- Produto 1 -->
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://images.pexels.com/photos/11059993/pexels-photo-11059993.jpeg" 
+             alt="Beagle bocejando" class="rounded mb-4">
+        <h4 class="font-bold text-lg">Caminha Luxo</h4>
+        <p class="text-sm text-gray-600">Conforto máximo para seu pet.</p>
+        <span class="block mt-2 text-pink-600 font-semibold">R$ 199,90</span>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://images.pexels.com/photos/32880707/pexels-photo-32880707.jpeg" 
+             alt="Labrador brincando" class="rounded mb-4">
+        <h4 class="font-bold text-lg">Brinquedo Mordedor</h4>
+        <p class="text-sm text-gray-600">Diversão garantida para seu cão.</p>
+        <span class="block mt-2 text-pink-600 font-semibold">R$ 49,90</span>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://images.pexels.com/photos/7797462/pexels-photo-7797462.jpeg" 
+             alt="Cachorro com coleira fashion" class="rounded mb-4">
+        <h4 class="font-bold text-lg">Coleira Fashion</h4>
+        <p class="text-sm text-gray-600">Estilo e segurança no passeio.</p>
+        <span class="block mt-2 text-pink-600 font-semibold">R$ 89,90</span>
+      </div>
+
+      <!-- Produto 4 -->
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://images.pexels.com/photos/8499253/pexels-photo-8499253.jpeg" 
+             alt="Pessoa com cachorro usando roupinha" class="rounded mb-4">
+        <h4 class="font-bold text-lg">Roupinha Pet</h4>
+        <p class="text-sm text-gray-600">Conforto e estilo para todas as ocasiões.</p>
+        <span class="block mt-2 text-pink-600 font-semibold">R$ 129,90</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="bg-gray-100 py-16 px-8 text-center">
+    <h3 class="text-3xl font-bold mb-6">❤️ Depoimentos</h3>
+    <blockquote class="italic">"Adorei a caminha, meu cachorro nunca dormiu tão bem!" – Ana, SP</blockquote>
+    <blockquote class="italic mt-4">"Produtos lindos e de ótima qualidade!" – João, RJ</blockquote>
+    <blockquote class="italic mt-4">"Atendimento excelente, recomendo muito!" – Maria, MG</blockquote>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 px-8">
+    <h3 class="text-3xl font-bold text-center mb-8">📞 Contato</h3>
+    <div class="max-w-lg mx-auto">
+      <p class="mb-4">E-mail: contato@petstyle.com | Telefone: (11) 99999-9999</p>
+      <form class="bg-white p-6 rounded shadow-md">
+        <input type="text" placeholder="Nome" class="w-full p-2 border rounded mb-4">
+        <input type="email" placeholder="E-mail" class="w-full p-2 border rounded mb-4">
+        <textarea placeholder="Mensagem" class="w-full p-2 border rounded mb-4"></textarea>
+        <button class="bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-200">
+    <p>&copy; 2025 Pet&Style - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
+
+
